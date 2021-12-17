@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/lunadoge.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="hero-block text-center-desktop text-center-mobile">
+        <div class="hero-text-container">
+            <h1>Contact me !</h1>
+            <h2>
+                Are you a creative person with an interest in digital?
+                </h2>
+        </div>
+            <div class="container-btn">
+                <a href="../portfolio/index.html" class="btn btn-primary"><i class="fas fa-shopping-cart"></i><span>Portefolio</span></a>
+            </div>
+        
+        
+    </header>
+    
+    
+
+    <section class="container-contact-form">
+
+        <!-- Contact form starts here -->
+        <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post" action="https://formspree.io/nnnnnnnn">
+
+            <div class="contact-form-upper text-center">
+                <h2>Contact me</h2>
+               
+            </div>
+
+            <!-- Begin contact form fields -->
+
+            <div class="flex-row">
+                <div class="item-name">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="Your Last Name." required="">
+                </div>
+                <div class="item-name">
+                    <label for="full-firstname">Full Name</label>
+                    <input type="text" name="name" id="full-firstname" placeholder="Your First Name." required="">
+                </div>
+                <div class="item-email">
+                    <label for="email-address">Email</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address." required="">
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <div class="item-textarea">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Your Message." required=""></textarea>
+                </div>
+
+                <div class="item-btn">
+                    <button id="btn-submit" type="submit"><span>Send</span><i class="fas fa-arrow-circle-right"></i></button> 
+                </div>
+            </div>
+
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            <!-- End contact form fields -->
+
+        </form><!-- Contact form ends here -->
+</section><!-- End container for contact form -->
+
+</body>
+</html>
